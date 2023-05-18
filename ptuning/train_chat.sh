@@ -1,5 +1,7 @@
 PRE_SEQ_LEN=128
 LR=1e-2
+CHAT_TRAIN_DATA=train.json
+CHAT_VAL_DATA=dev.json
 
 CUDA_VISIBLE_DEVICES=0 python3 main.py \
     --do_train \

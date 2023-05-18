@@ -3,8 +3,8 @@ LR=2e-2
 
 CUDA_VISIBLE_DEVICES=0 python3 main.py \
     --do_train \
-    --train_file AdvertiseGen/train.json \
-    --validation_file AdvertiseGen/dev.json \
+    --train_file train.json \
+    --validation_file dev.json \
     --prompt_column content \
     --response_column summary \
     --overwrite_cache \
